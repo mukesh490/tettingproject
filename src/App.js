@@ -3,7 +3,13 @@ import './App.css';
 function App() {
   return (
    <div>
-    hello git.
+  <form>
+    name
+    <input type='text' placeholder='enter the name'/>
+   email
+    <input type='text' placeholder='enter the email'/>
+    <button type='submit'>Login</button>
+  </form>
    </div>
   );
 }
